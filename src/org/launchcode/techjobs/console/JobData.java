@@ -94,7 +94,6 @@ public class JobData {
         for (HashMap<String, String> row : allJobs) {
 
             for (String aValue : row.values()) {
-                System.out.println("Values : " + aValue.toUpperCase() + " " + searchvalue.toUpperCase());
                 if (aValue.toUpperCase().contains(searchvalue.toUpperCase())) {
                     jobs.add(row);
                 }
